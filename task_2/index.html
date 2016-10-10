@@ -1,99 +1,30 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>task_3</title>
-		<meta charset="utf-8">
-	</head>
-	<body>
-		<h1>HTML Basics</h1>
-		<h2>Lists</h2>
-
-		<h3>Order list</h3>
-		<ol>
-			<li>first item</li>
-			<li>second item</li>
-			<li>third item</li>
-			<li>fourth item</li>
-			<li>fifth item</li>
-		</ol>
-
-		<h3>Unordered list</h3>
-		<ul>
-			<li>A</li>
-			<li>B</li>
-			<li>C</li>
-			<li>D</li>
-			<li>F</li>
-		</ul>  
-
-		<div style="background-color: #008000">
-			<h3>Description list</h3>	
-			<dl>
-				<dt>Name</dt> <dd>Godzilla</dd>
-				<dt>Born</dt> <dd>1952</dd>
-				<dt>Birthplace</dt> <dd>Japan</dd>
-				<dt>Color</dt> <dd>Green</dd>
-			</dl> 
-			<h3>Nested list</h3>  
-			<ul>
-				<li>List item one</li>
-				<li>List item two with subitems
-					<ul>
-						<li>Subitem 1
-							<ul>
-								 <li>SubSubitem 1</li>
-								 <li>SubSubitem 2  </li>
-							</ul>
-						</li>
-						<li>Subitem 2  </li>
-					</ul>
-				</li>
-				<li>Final list item one</li>
-			</ul>
-		</div>  
-
-		<h3>List with links</h3>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="index.html">News</a></li>
-			<li><a href="index.html">Contact</a></li>
-			<li><a href="index.html">About</a></li>
-		</ul>
-		<hr>
-		<h2>Paragraphs</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies elit quis tortor venenatis tincidunt.
-		Nulla aliquet tempor erat, a rhoncus dui tempus in. Integer vel massa at nisl suscipit tincidunt. Sed ultrices ornare urna in tincidunt.
-		Aliquam a nisi finibus, imperdiet neque et, volutpat arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-		Sed id porttitor arcu. Integer nulla ex, fermentum et orci sit amet, fermentum malesuada felis.</p>
-		<p style="width: 30%;">Quisque tincidunt, lectus in tincidunt consequat, nisi ligula molestie erat, vel aliquam lorem lacus vel ante. Etiam in gravida odio.
-		Nulla pellentesque pretium est vel scelerisque. Suspendisse sed convallis arcu.</p>
-		<hr>
-		<h2>Tables</h2>
-		<table>
-			<tr> 
-				<th>First name</th>
-				<th>Last name</th>
-			</tr>
-			<tr> 
-				<td>John</td>
-				<td>Doe</td>
-			</tr>
-			<tr>
-				<td>John</td>
-				<td>Doe</td>
-			</tr>
-		</table>
-		<hr>
-		<h2>Image</h2>
-		<img src="image.jpg" alt="кот который программирует на php">
-		<hr>
-		<h2>Pre tag</h2>
-		<pre>
-		if (time = 20) {
-		greeting = "Good day";
-		} else {
-		greeting = "Good evening";
-		}
-		</pre>
-	</body>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>TASK_5</title>
+   <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <table>
+    <tr>
+     <td class="logo"><img src="logo.jpg" alt="mersedes-benz"></td>
+	 <td class="menu_1">
+	    <br>
+		<a href="menu_1/menu_1.html" target="page">Mersedes Benz в России</a> &nbsp; &nbsp;
+		<a href="menu_2/menu_2.html" target="page">Легковые</a> &nbsp; &nbsp;
+		<a href="menu_3/menu_3.html" target="page">Внедорожники</a> &nbsp; &nbsp;
+		<a href="menu_4/menu_4.html" target="page">Кабриолеты и родстеры</a> &nbsp; &nbsp;
+	 </td>
+	</tr>
+	<tr>
+	 <td colspan="2" class="main">
+	   <iframe name="page" src="page.html"></iframe>
+	 </td>
+	</tr>
+	<tr>
+	 <td colspan="2" class="down"><a href="https://vk.com/shaaaron">© Дмитрий Титов</a></td>
+	</tr>
+  </table>
+ </body>
 </html>

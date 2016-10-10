@@ -1,51 +1,44 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
  <head>
-  <title>task_2</title>
+  <title>task_4</title>
     <meta charset="utf-8">
 	<style>
-	 .white-space {
-	  white-space: pre;
+	 .cell_one{
+	  background: #b6dcb3;
+	  height: 50px;
+	 }
+	 .cell_two{
+	  background: #b6dcb3;
+	  height: 10px;
+	 }
+	 table {
+	  border: 2px white;;
+	  margin: auto;
+	  width: 700px;
+	  padding: 0px;
+	 }
+	 iframe {
+	  width: 700px;
 	 }
 	</style>
  </head>
  <body>
-    <h1>Это заголовок первого уровня</h1> <hr>
-	<h2>Это заголовок второго уровня</h2> <hr>
-	<h3>Это заголовок третьего уровня</h3> <hr>
-	<h4>Это заголовок четвертого уровня</h4> <hr>
-	<h5>Это заголовок пятого уровня</h5> <hr>
-	<h6>Это заголовок шестого уровня</h6> <hr>
- <ul>
-  <li>Первый пункт маркированного списка</li>
-  <li>Второй пункт маркированного списка</li>
-  <li>Третий пункт маркированного списка</li>
- </ul>
-   <div style="background-color:#80C0FF; text-align: center;">
-    Это содержимое блока с измененным цветом фона.
-   </div>
-  <br>
-  <table border=1>
+    <table>
   <tr>
-    <td></td> <td></td> <td></td>
+    <td class="cell_one"><h3>This is Web Page Main title</h3></td>
+	<td class="cell_one">
+      <a href="page.html" target="myiframe">Menu_1</a>
+	</td>
   </tr>
-    <tr>
-    <td></td> <td></td> <td></td>
+  <tr>
+    <td colspan="2">
+	  <iframe name="myiframe" src="iframe.html"></iframe>
+	</td>
   </tr>
-    <tr>
-    <td></td> <td></td> <td></td>
-  </tr>
-</table> * это таблица 3х3 с пустыми ячейками
-<br>
-<img src="image.jpg" alt="Яндек - найдется все.">
-<br>
- <a href="http://www.yandex.ru">Яндекс</a> - ссылка.
-<br> &nbsp;
-   <p class="white-space"> 
- Этот текст отображается в рамках тега Р с классом white-space
-   <br> Этот текст отображается в рамках тега Р с классом white-space
-   <br> Этот текст отображается в рамках тега Р с классом white-space
-   <br> Этот текст отображается в рамках тега Р с классом white-space
-   </p>
-</body>
+  <tr>
+    <td colspan="2" class="cell_two">Copyright &#169; you</td>
+  </tr>  
+</table>
+ </body>
 </html>
