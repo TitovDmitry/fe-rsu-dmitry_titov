@@ -4,41 +4,54 @@
   <title>task_4</title>
     <meta charset="utf-8">
 	<style>
-	 .cell_one{
-	  background: #b6dcb3;
-	  height: 50px;
-	 }
-	 .cell_two{
-	  background: #b6dcb3;
-	  height: 10px;
-	 }
 	 table {
-	  border: 2px white;;
-	  margin: auto;
-	  width: 700px;
-	  padding: 0px;
+	   margin: auto;
+	   overflow:  hidden;
+	   height:  250px;
+	   width: 100%;
+	 }
+	 .one {
+	   background: #b5dcb3;
+	   height:  30%;
+	   width: 80%;
+	   font-size: 200%;
+	   font-weight: 600;
+	 }
+	 .two {
+	   background: #b5dcb3;
+	   height:  30%;
+	   width: 20%;
+	   font-size: 120%;
+	   font-weight: 600;
+	 }
+	 .three {
+	   height:  60%;
+	   background: #eeeeee;
+	 }
+	 .for {
+	   height:  10%;
+	   background: #b5dcb3;
+	   font-size: 80%;
 	 }
 	 iframe {
-	  width: 700px;
+	   width: 100%;
 	 }
 	</style>
  </head>
  <body>
-    <table>
+ <table>
   <tr>
-    <td class="cell_one"><h3>This is Web Page Main title</h3></td>
-	<td class="cell_one">
-      <a href="page.html" target="myiframe">Menu_1</a>
-	</td>
+   <td class="one">This is Web Page Main title</td>
+   <td class="two"><a href="page_2.html" target="frame_one">Menu 1</a></td>
   </tr>
   <tr>
-    <td colspan="2">
-	  <iframe name="myiframe" src="iframe.html"></iframe>
-	</td>
+   <td colspan="2" class="three">
+		<iframe name="frame_one" src="page.html" ></iframe>
+   </td>
   </tr>
   <tr>
-    <td colspan="2" class="cell_two">Copyright &#169; you</td>
-  </tr>  
-</table>
+   <td colspan="2" class="for">Copyring © 2016 Titov Dmitry</td>
+  </tr>
+ </table>
  </body>
 </html>
