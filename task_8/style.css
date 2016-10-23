@@ -1,0 +1,111 @@
+.block {
+	display: inline-block;
+	width: 100px;
+	height: 150px;
+	background: #fffafa;
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: outset;
+	border-color: #eda1cb;
+}
+.ball {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #fffafa;
+	border-radius: 30px;
+	border-width: 5px;
+	border-style: outset;
+	border-color: #eda1cb;
+	animation-name: jump;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes jump {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	100% {
+		transform: translate(0px, -100px);
+	}
+}
+.loader {
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-radius: 100px;
+	border-width: 100px;
+	border-style: ridge;
+	border-color: white;
+	animation-name: loader;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes loader {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);			
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.animation_3 {
+	display: inline-block;
+	animation-name: anim_3;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	background-image: linear-gradient(to top, black, white, black);
+}
+@keyframes anim_3 {
+	0% {
+		border-radius: 100px;
+		background-position: 0 0px;
+		width: 200px;
+		height: 200px;
+		transform: skew(0deg, 0deg);
+	}
+	15% {
+		border-radius: 0px;
+		background-position: 0 0px;
+		width: 200px;
+		height: 200px;
+		transform: skew(0deg, 0deg);
+	}
+	30% {
+		background-position: 0 200px;
+		width: 200px;
+		height: 200px;
+		transform: skew(0deg, 0deg);
+	}
+	45% {
+		width: 100px;
+		height: 100px;	
+		transform: skew(20deg, 20deg);
+		background-position: 0 200px;
+	}
+	60% {
+		transform: rotate(180deg);
+		width: 100px;
+		height: 100px;
+		background-position: 0 200px;
+	}
+	75% {
+		background-position: 0 0px;
+		border-radius: 0px;
+		transform: rotate(180deg);
+	}
+	100% {
+		border-radius: 100px;
+		background-position: 0 0px;
+		width: 200px;
+		height: 200px;
+		transform: skew(0deg, 0deg);
+	}
+}
