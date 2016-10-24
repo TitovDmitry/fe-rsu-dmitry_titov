@@ -1,0 +1,42 @@
+table {
+	text-align: center;
+	width: 575px;
+	font-family: sans-serif;
+}
+td{
+	border: 0px solid white;
+	height: 3.3em;
+	font-size: 90%;
+	text-align: left;
+	padding-left: 2.5%;
+}
+th {
+	border: 0px solid white;
+	height: 2.3em;
+	text-transform: uppercase;
+	font-size: 70%;
+}
+.trone {
+	background: #e8edf4;
+}
+.trtwo {
+	background: #f2f6fa;
+}
+.customer {
+	width: 23%;
+}
+.phone {
+	width: 23%;
+}
+.mail {
+	width: 34%;
+}
+.out {
+	width: 20%;
+}
+.name{
+	text-transform: capitalize;
+}
+tr:hover {
+background: #e2e5e9;
+}

@@ -1,0 +1,32 @@
+table {
+	text-align: center;
+	width: 575px;
+	font-family: sans-serif;
+}
+td{
+	border: 0px solid white;
+	height: 3.3em;
+	font-size: 90%;
+	text-align: left;
+	padding-left: 2.5%;
+}
+th {
+	border: 0px solid white;
+	height: 2.3em;
+	text-transform: uppercase;
+	font-size: 70%;
+}
+tr:nth-child(odd) {
+	background: #e8edf4;
+}
+tr:nth-child(even) {
+	background: #f2f6fa;
+}
+tr:hover {
+background: #e2e5e9;
+}
+
+td:nth-child(4n+1) {width: 23%; text-transform: capitalize;}
+td:nth-child(4n+2) {width: 23%;}
+td:nth-child(4n+3) {width: 34%;}
+td:nth-child(4n+4) {width: 20%;}
