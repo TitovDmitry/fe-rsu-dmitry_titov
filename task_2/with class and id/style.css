@@ -37,6 +37,12 @@ th {
 .name{
 	text-transform: capitalize;
 }
-tr:hover {
+tr.trone:hover {
 background: #e2e5e9;
+}
+tr.trtwo:hover {
+background: #e2e5e9;
+}
+.head {
+	background: #e8edf4;
 }

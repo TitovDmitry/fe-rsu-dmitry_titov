@@ -22,7 +22,7 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
 	background: #f2f6fa;
 }
-tr:hover {
+tr:nth-child(1n+2):hover {
 background: #e2e5e9;
 }
 
