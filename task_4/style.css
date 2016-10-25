@@ -4,10 +4,11 @@
 a {
 	text-decoration: none; /*убираем подчеркивание ссылок*/
 	border-bottom: 0px solid blue; /*жирное подчеркивание толщиной 0*/
+	transition-duration: 0.5s;
 	
 }
 a:hover {
-	border-bottom: 2px solid blue; /*подчеркивание при наведении*/
+	border-bottom: 4px solid blue; /*подчеркивание при наведении*/
 }
 .link:after {
 	content: " | "; /*добавляем черточку для ссылок*/
