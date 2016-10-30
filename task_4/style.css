@@ -1,18 +1,58 @@
-* {
-	text-align: center; /*РІС‹СЂР°РІРЅРёРІР°РЅРёРµ РїРѕ С†РµРЅС‚СЂСѓ РґР»СЏ РІСЃРµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°*/
+body {
+	margin: 0px;
+	margin-left: 15px;
 }
-a {
-	text-decoration: none; /*СѓР±РёСЂР°РµРј РїРѕРґС‡РµСЂРєРёРІР°РЅРёРµ СЃСЃС‹Р»РѕРє*/
-	border-bottom: 0px solid blue; /*Р¶РёСЂРЅРѕРµ РїРѕРґС‡РµСЂРєРёРІР°РЅРёРµ С‚РѕР»С‰РёРЅРѕР№ 0*/
-	transition-duration: 0.5s;
+ul {
+	margin: 0;
+    padding: 0;
+	line-height: 1.5; /*межстрочное расстояние*/
+}
+li {
+    list-style-type: none; /*убрал маркеры*/
 	
 }
-a:hover {
-	border-bottom: 4px solid blue; /*РїРѕРґС‡РµСЂРєРёРІР°РЅРёРµ РїСЂРё РЅР°РІРµРґРµРЅРёРё*/
+li:hover {
+	background-color: #03a9f4; /*смена цвета при наведении*/
+	cursor: pointer; /*смена курсора*/
 }
-.link:after {
-	content: " | "; /*РґРѕР±Р°РІР»СЏРµРј С‡РµСЂС‚РѕС‡РєСѓ РґР»СЏ СЃСЃС‹Р»РѕРє*/
+.menu:hover {
+	cursor: pointer;
 }
-.link:hover:after{
-	opacity: 0; /*СЃС‚РёСЂР°РµРј С‡РµСЂС‚РѕС‡РєСѓ РїСЂРё РЅР°РІРµРґРµРЅРёРё*/
+.button:hover {
+	cursor: pointer;
 }
+.menu 
+{ 
+	position: fixed;
+	background-color: #35baf6;
+	color: white;
+	padding: 0px;
+	width: 110px;
+	padding-top:5px;
+	text-align: center;
+	box-shadow: 0px 0px 10px #35baf6;
+	top: -125px;
+	transition-duration: 0.5s;
+} 
+.button{
+	border-top: 1px solid #d8e8f9;
+	position: fixed;
+	background-color: #35baf6;
+	color: white;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 0px 0px 10px #35baf6;
+	top: 0px;
+	outline: none;
+	transition-duration: 0.5s;
+}
+.button:focus ~ .menu, .button:active ~ .menu, .menu:hover{ 
+   top: 0px; /*опускаю менюшку*/
+}
+.button:focus,.button:active{
+margin-top:125px; /*опускаю кнопку*/
+}
+ 

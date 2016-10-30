@@ -1,16 +1,25 @@
-.title {
-	width: 300px;
-	font-size: 180%;
-	font-weight: bold;
-	background-color: #569099;
-	margin: 10px;
-	padding: 10px;
-	color: white;
+* {
+	font-family: sans-serif;
 }
-.text {
-	width: 300px;
-	font-size: 95%;
-	background-color: #cad8d0;
-	margin: 10px;
+.caption {
+	color: #8863d1;
+	background-color: #a68bdd;
+	border-radius: 10px;
+	border-top-left-radius: 0px;
 	padding: 10px;
+	width: 730px;
+	margin-top: 50px;
 }
+.caption:before {
+    content: 'Caption'; 
+    position: absolute;
+	top: 13px;
+	left: 8px;
+    background-color: #a68bdd;
+	color: #8863d1;
+	padding: 10px;
+	border-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	box-shadow: inset 0px 0px 2px 2px;
+   }

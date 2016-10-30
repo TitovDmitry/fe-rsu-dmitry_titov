@@ -1,15 +1,181 @@
-* {
-	margin: auto;
+body {
+	margin: 0px;
 }
-.border {
-	width: 300px;
-	height: 200px;
-	border: 3px solid #00bc9e;
-	padding-top: 30px;
+#top-menu {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	background-image: url(images/bg.png);
 }
-.circle {
-	width: 150px;
-	height: 150px;
-	background-color: #00bc9e;
-	border-radius: 75px;
+.mail {
+	float: left;
+	margin-right: 3px;
+	background-color: rgb(55, 121, 176);
+	background-image: url(images/icons/mail.png);
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	border: 0px solid black;
+	height: 100%;
+	width: 50px;
+	outline: none;
+}
+.mail:after {
+	font-size: 8px;
+	transform: scale(1.3, 1);
+	color: white;
+	position: absolute;
+	top:7px;
+	left: 26px;
+	content: "2";
+	background-color: rgb(243, 39, 42);
+	border: 4px solid rgb(243, 39, 42);
+	border-radius: 10px;
+	box-shadow: 0px 0px 1px 1px rgb(40, 88, 128);
+}
+.mail:hover {
+	cursor:pointer;
+	background-color: rgb(224, 56, 56);
+}
+*.page {
+	float: left;
+	margin-right: 3px;
+	background-color: rgb(55, 121, 176);
+	background-image: url(images/icons/page.png);
+	background-repeat: no-repeat;
+	background-position: 8px 7px;
+	border: 0px solid black;
+	height: 100%;
+	width: 80px;
+	outline: none;
+}
+.page:after {
+	font-size: 8px;
+	transform: scale(1.3, 1);
+	color: white;
+	position: absolute;
+	top:7px;
+	left: 83px;
+	content: "223896";
+	background-color: rgb(243, 39, 42);
+	border: 4px solid rgb(243, 39, 42);
+	border-radius: 10px;
+	box-shadow: 0px 0px 1px 1px rgb(40, 88, 128);
+}
+.page:hover {
+	cursor:pointer;
+	background-color: rgb(224, 56, 56);
+}
+.user {
+	float: left;
+	margin-right: 3px;
+	background-color: rgb(55, 121, 176);
+	background-image: url(images/icons/user.png);
+	background-repeat: no-repeat;
+	background-position: 8px 7px;
+	border: 0px solid black;
+	height: 100%;
+	width: 50px;
+	outline: none;
+}
+.user:after {
+	font-size: 8px;
+	transform: scale(1.5, 1);
+	color: white;
+	position: absolute;
+	top:7px;
+	left: 165px;
+	content: "!";
+	background-color: rgb(243, 39, 42);
+	border: 4px solid rgb(243, 39, 42);
+	border-radius: 10px;
+	box-shadow: 0px 0px 1px 1px rgb(40, 88, 128);
+}
+.user:hover {
+	cursor:pointer;
+	background-color: rgb(224, 56, 56);
+}
+.flag {
+	float: left;
+	margin-right: 3px;
+	background-color: rgb(55, 121, 176);
+	background-image: url(images/icons/flag.png);
+	background-repeat: no-repeat;
+	background-position: 8px 7px;
+	border: 0px solid black;
+	height: 100%;
+	width: 32px;
+	outline: none;
+}
+.flag:hover {
+	cursor:pointer;
+	background-color: rgb(224, 56, 56);
+}
+.checked {
+	float: left;
+	margin-right: 3px;
+	background-color: rgb(55, 121, 176);
+	background-image: url(images/icons/checked.png);
+	background-repeat: no-repeat;
+	background-position: 8px 7px;
+	border: 0px solid black;
+	height: 100%;
+	width: 32px;
+	outline: none;
+}
+.checked:hover {
+	cursor:pointer;
+	background-color: rgb(224, 56, 56);
+}
+
+.refresh {
+	float: right;
+	margin-left: 3px;
+	background-color: rgb(55, 121, 176);
+	background-image: url(images/icons/refresh.png);
+	background-repeat: no-repeat;
+	background-position: 8px 7px;
+	border: 0px solid black;
+	height: 100%;
+	width: 32px;
+	outline: none;
+}
+.refresh:hover {
+	cursor:pointer;
+	background-color: rgb(224, 56, 56);
+}
+.widget {
+	float: right;
+	margin-left: 3px;
+	background-color: rgb(55, 121, 176);
+	background-image: url(images/icons/widget.png);
+	background-repeat: no-repeat;
+	background-position: 8px 7px;
+	border: 0px solid black;
+	height: 100%;
+	width: 32px;
+	outline: none;
+}
+.widget:hover {
+	cursor:pointer;
+	background-color: rgb(224, 56, 56);
+}
+.exit{
+	float: right;
+	margin-left: 3px;
+	background-color: rgb(47, 47, 53);
+	background-image: url(images/icons/exit.png);
+	background-repeat: no-repeat;
+	background-position: 110px 7px;
+	border: 0px solid black;
+	height: 100%;
+	width: 140px;
+	outline: none;
+	color: white;
+	text-align: left;
+	font-size: 1em;
+	padding-left: 30px;
+}
+.exit:hover {
+	cursor:pointer;
+	background-color: rgb(224, 56, 56);
 }

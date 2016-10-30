@@ -1,9 +1,21 @@
-* {
-	margin:10px auto;
-}
-#img {
-	width: 400px;
-	height: 400px;
-	background-image: url(image.png);
-	box-shadow: inset 0 0 10px;
-}
+  .arrow-box {
+ 	background-color: #88b7d5;
+	width: 350px;
+	color: white;
+    border: 4px solid #bfdef3;
+    padding: 15px;
+    position: relative;
+	margin-top: 50px;
+   }
+   .arrow-box:before, .arrow-box:after {
+    content: ''; 
+    position: absolute;
+    left: 150px;
+	bottom: 105px;
+    border: 40px solid transparent;
+    border-bottom: 40px solid #bfdef3;
+   }
+   .arrow-box:after {
+    border-bottom: 40px solid #88b7d5;
+    bottom: 98px; 
+   }
