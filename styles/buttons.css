@@ -1,0 +1,130 @@
+/*меню над книгами*/
+.b_books {
+	display: flex;
+	background-color: rgba(255,255,255,0);
+	margin: 20px 5px 20px 5px;
+	border-width: 0px;
+	border-radius: 20px;	
+	color: #8c97b2;
+}
+
+.b_books:hover {
+	background-color: #97b3ce;
+	color: white;
+	cursor: pointer;
+}
+
+/*меню зарегистрированного пользователя*/
+.button_up {
+	background-color: rgba(255,255,255,0);
+	color: #69738c;
+	border-width: 0px;
+	padding-right: 20px;
+}
+.button_up:hover {
+	background-color: #15a4fa;
+	color: #ffffff;
+	cursor: pointer;
+}
+#button_im {
+	display: flex;
+	background-color: #15a4fa;
+	color: #ffffff;
+	border-width: 0px;
+	width: 160px;
+	align-items: center;
+	justify-content:space-around; 
+	border-radius: 0px 10px 0px 0px;
+}
+#button_im:after {
+	font-family: smile;
+	content: "\f0ab";
+}
+
+/*добавить книгу*/
+#add_a_book {
+	font-family: left-bold;
+	display: flex;
+	justify-content: flex-end;
+	width: 80%;
+	font-size: 0.8em;
+	background-color: #f2795a;
+	border-width: 0px;
+	border-radius: 5px;
+	color: white;
+	padding: 15px 20px 15px 25px;
+	margin: 35px 0px 35px 15px;
+}
+#add_a_book:hover {
+	cursor: pointer;
+}
+#add_a_book:after {
+	position: absolute;
+	font-size: 3em;
+	content: "+";
+	top: 82px;
+	left: 35px;
+}
+
+/*левое меню со значками*/
+.icons {
+	display: flex;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	background-color: rgba(255,255,255,0);
+	color: #78829d;
+	border-width: 0px;
+	text-align: left;
+	width: 100%;
+	padding-left: 20px;
+}
+.icons:hover {
+	background-color: #15a4fa;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+/*поиск по книгам*/
+.button_search {
+	position: relative;
+	background-color: rgba(253,255,255,1);
+	width: 15px;
+	height: 15px;
+	border-width: 0px;
+	left: -45px;
+	top: 1px;
+}
+.button_search:hover {
+	cursor: pointer;
+}
+
+/*сама книга*/
+.book {
+	width: 200px;
+	height: 275px;
+	border-radius: 5px;
+}
+.book:hover {
+	cursor: pointer;
+}
+
+/*две кнопки в подвале*/
+.question {
+	background-color: #1f2637;
+	border-width: 0px;
+	width: 55px;
+}
+
+.gear {
+	background-color: #15a4fa;
+	border-width: 0px;
+	width: 55px;
+}
+
+.gear:hover {
+	cursor: pointer;
+}
+.question:hover {
+	cursor: pointer;
+}
+

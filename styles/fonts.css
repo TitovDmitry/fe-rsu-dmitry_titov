@@ -1,0 +1,12 @@
+@font-face {
+	font-family: smile;
+	src: url(../FontAwesome.otf);
+}
+@font-face {
+	font-family: left;
+	src: url(../ProximaNova/ProximaNovaRegular.otf);
+}
+@font-face {
+	font-family: left-bold;
+	src: url(../ProximaNova/ProximaNovaBold.otf);
+}
