@@ -1,0 +1,9 @@
+html {
+	font-size: 2em;
+	margin: 30px;
+}
+
+tabel, td, tr {
+	border: 1px solid #0fffe3;
+	padding: 10px;
+}
