@@ -1,0 +1,40 @@
+.book {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    font-family: alltext;
+    cursor: pointer;
+}
+
+.book__cover {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.book__title {
+    color: rgb(68,77,108);
+    margin-top: 10px;
+}
+
+.book__prise {
+    color: rgb(68,77,108);
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.book__author {
+    color: rgb(68,77,108);
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
+.book__author:before {
+    content: "by ";
+}
+
+.book__stars {
+    color: rgb(255,168,20);
+    margin-top: 5px;
+    cursor: pointer;
+}

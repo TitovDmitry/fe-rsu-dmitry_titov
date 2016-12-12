@@ -1,0 +1,10 @@
+.centerblock {
+    display: flex;
+    width:calc(100% - 200px);
+    height: 100%;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: calc(100% - 200px);
+}

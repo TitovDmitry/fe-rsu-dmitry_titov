@@ -1,0 +1,17 @@
+.edittags {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url(../png/pix.png);    
+    color: white;
+}
+
+edittags_off {
+    position: fixed;
+    visibility: hidden;    
+}

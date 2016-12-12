@@ -1,0 +1,65 @@
+.header { /*верхний блок*/
+    font-family: alltext;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    flex-shrink: 0;
+    background-color: #2f3649;
+}
+
+.header-menu { /*для списка*/
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header-item { /*для пунктов списка*/
+    display: inline-block;
+}
+
+.header-point { /*точка между пунктами меню*/
+    display: inline-block;
+    font-size: 0.6em;
+    color: #232a3d;
+}
+
+.header-link { /*cсылки*/
+    font-size: 0.9em;
+    color: #70768c;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-profile {
+    height: 100%;
+    width: 170px;
+    background-color: #16a4fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.9em;
+    color: white;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.header-profile__avatar {
+    width: 32px;
+    height: 32px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.header-profile__name {
+    font-size: 0.9em;
+}
+
+.pagging-left {
+    padding-right: 10px;
+}

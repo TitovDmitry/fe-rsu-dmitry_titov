@@ -15,7 +15,7 @@ Room.prototype.getPower = function() {
 }
 
 Room.prototype.showPower = function() {
-    console.log(this.name + " общая мощность составояет: " + this.power);
+    console.log(this.name + " общая мощность составояет: " + this.getPower());
 }
 
 Room.prototype.getDevice = function(name) {

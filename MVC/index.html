@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+
+<html class = "page">
+
+<head>
+    <meta charset="utf-8">
+    <title>Layout</title>
+    <link rel="stylesheet" href="styles/general.css">
+</head>
+
+<body class = "page">
+    <div class = "bookinfo_off" id = "bookinfo">
+        <div class = "bookinfo__part" id = "bookinfo_1">
+    <!-- наполнение из HTML !-->
+        </div>
+        <div class = "bookinfo__part" id = "bookinfo_2">
+    <!-- наполнение из HTML !-->
+        </div>
+    </div>
+    <div class = "newbook_off" id = "newbook">
+        <div class = "newbook__add">
+            <fieldset class = "newbook__field">
+                <legend class = "newbook__legend">ADD A BOOK</legend>
+                <div class = "newbook__input">Title: </div><input type = "text" placeholder="Cloud Atlas" id = "newbook_title">
+                <div class = "newbook__input">Author: </div><input type = "text" placeholder="David Mitchell" id = "newbook_author">
+                <div class = "newbook__input">Cover: </div><input type = "file" id = "newbook_cover">
+                <div class = "newbook__input">Raiting: </div>
+                    <select id = "newbook_stars">
+                        <option value="0">☆☆☆☆☆☆☆☆☆☆</option>
+                        <option value="0.5">★☆☆☆☆☆☆☆☆☆</option>
+                        <option value="1">★★☆☆☆☆☆☆☆☆</option>
+                        <option value="1.5">★★★☆☆☆☆☆☆☆</option>
+                        <option value="2">★★★★☆☆☆☆☆☆</option>
+                        <option value="2.5">★★★★★☆☆☆☆☆</option>
+                        <option value="3">★★★★★★☆☆☆☆</option>
+                        <option value="3.5">★★★★★★★☆☆☆</option>
+                        <option value="4">★★★★★★★★☆☆</option>
+                        <option value="4.5">★★★★★★★★★☆</option>
+                        <option value="5">★★★★★★★★★★</option>
+                    </select>
+                <div class = "newbook__input">Price: </div><input type = "text" placeholder = "5" id = "newbook_price">
+                <div class = "newbook__input"><button class = "newbook__button" id = "but_add">ADD A BOOK</button><button id = "but_cancel">Cancel</button></div>
+            </fieldset>
+        </div>
+    </div>
+    <div class = "body">
+        <header class = "header">         
+            <ul class = "header__menu">
+                <li class = "header-item"> <a href = "#" class = "header-link">Help Center</a> </li>
+                <li class = "header-point"> ⚫ </li>
+                <li class = "header-item"> <a href = "#" class = "header-link pagging-left">Out Support</a> </li>
+            </ul>
+            <button class = "header-profile">
+                <img src="profile/avatar.jpg" alt="avatar" class = "header-profile__avatar">
+                <div class = "header-profile__name"> Titov Dmitry </div>
+                <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+            </button>  
+        </header>
+
+        <main class = "main">
+
+            <div class = "leftblock">
+
+                <div class = "panel panel_bottomborder">
+                    <button class = "panel__addabook" id = "addabook_click">
+                        <big class="panel__plus" > <i class="fa fa-plus" aria-hidden="true"></i></big> 
+                        ADD A BOOK
+                    </button>
+                </div>
+
+                <div class = "panel panel_allborder">
+                    <ul class = "panel-menu">
+                        <li class = "panel-item">
+                            <a class = "panel-link" href = "#">
+                                <i class="fa fa-book" aria-hidden="true"></i>
+                                <i class = "panel-text"> Now Reading </i>
+                            </a>
+                        </li>
+                        <li class = "panel-item">
+                            <a class = "panel-link" href = "#">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                <i class = "panel-text">Browse</i>
+                            </a>
+                        </li>
+                        <li class = "panel-item">
+                            <a class = "panel-link" href = "#">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                <i class = "panel-text">Buy Books</i>
+                            </a>
+                        </li>
+                        <li class = "panel-item">
+                            <a class = "panel-link" href = "#">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class = "panel-text">Favourite Books</i>
+                            </a>
+                        </li>
+                        <li class = "panel-item">
+                           <a class = "panel-link" href = "#">
+                               <i class="fa fa-list" aria-hidden="true"></i>
+                               <i class = "panel-text">Wishlist</i>
+                            </a>
+                        </li>
+                        <li class = "panel-item">
+                            <a class = "panel-link" href = "#" id = "history">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i class = "panel-text">History</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "panel panel_allborder">
+                    <ul class = "panel-menu" id = "listoftags">
+<!-- Контент выводится из JS!-->
+                    </ul>
+                </div>
+                <div class = "panel panel_topborder">
+                    <ul class = "panel-menu" id = "news">
+
+<!-- Эту часть выводит JS !-->
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="centerblock">
+                <div class = "title">
+                    Browse Available Books
+                </div>
+                <div class = "centerblockmenu">
+                    <ul class = "centerblockmenu__menu">
+                        <li class = "centerblockmenu__item">
+                             <a class = "centerblockmenu__link_first" id = "allbooks" href = "#">
+                                 All book
+                             </a>
+                        </li>
+                        <li class = "centerblockmenu__item">
+                             <a class = "centerblockmenu__link" id = "mostrecent" href = "#">
+                                 Most recent
+                             </a>
+                        </li>
+                        <li class = "centerblockmenu__item">
+                             <a class = "centerblockmenu__link" id = "mostpopular" href = "#">
+                                 Most Popular
+                             </a>
+                        </li>
+                        <li class = "centerblockmenu__item">
+                             <a class = "centerblockmenu__link" id = "freebooks" href = "#">
+                                 Free Books
+                             </a>
+                        </li>
+                    </ul>
+
+                    <form>
+					    <input class="centerblockmenu__search" type="text" name="input_text" placeholder="Enter Keywords" id = "inputsearch" onkeyup="controller.sorting(this.value)">
+				    </form>
+                    
+                </div>
+                <div class = "content" id = "content">
+                    
+<!-- ЗДЕСЬ ВЫВОДИТ JS !-->
+
+                </div>
+            </div>
+
+        </main>
+
+        <div class = "basement">
+            <ul class = "basement__menu">
+                <li class = "basement__item">
+                    <a class = "basement__link gray" href = "#">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </a>
+                    <a class = "basement__link blue" href = "#">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<script type="text/javascript" src="scripts/News.js"></script>
+<script type="text/javascript" src="scripts/Tag.js"></script>
+<script type="text/javascript" src="scripts/Book.js"></script>
+<script type="text/javascript" src="scripts/model.js"></script>
+<script type="text/javascript" src="scripts/view.js"></script>
+<script type="text/javascript" src="scripts/controller.js"></script>
+<script type="text/javascript" src="scripts/init.js"></script>
+</body>
+</html>
+

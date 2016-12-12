@@ -1,0 +1,28 @@
+.news {
+    color: rgb(91,97,119);
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+}
+
+.watch {
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.textofnews {
+    display: inline-block;
+    font-size: 0.7em;
+    padding: 10px;
+}
+
+.textofnews_blue {
+    color: rgb(122,128,154);
+}
+
+.timeago {
+    
+}

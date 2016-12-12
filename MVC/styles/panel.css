@@ -1,0 +1,109 @@
+.panel {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    background-color: #1f2638; 
+    color: #77819b;
+}
+
+.panel_topborder {
+    border-top: 1px solid rgb(40, 47, 63);
+}
+
+.panel_bottomborder {
+    border-bottom: 1px solid rgb(20, 23, 38);
+    margin-bottom: 5px;
+}
+
+.panel_allborder {
+    border-top: 1px solid rgb(40, 47, 63);
+    border-bottom: 1px solid rgb(20, 23, 38);
+    margin-bottom: 5px;
+}
+
+.panel__addabook {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: bold-text;
+    font-size: 0.9em;
+    color: white;
+    background-color: #f2795a;
+    border-width: 0px;
+    width:80%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.panel__plus {
+    font-family: bold-text;
+    font-size: 1.3em;
+}
+
+.panel-menu {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width: 100%;
+}
+
+.panel-item {
+    margin: 0px;
+    padding: 0px;
+}
+
+.panel-link {
+    font-size: 0.8em;
+    color: rgb(122,128,154);
+    text-decoration: none;
+    display: inline-block;
+    width: 90%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.panel-link:hover {
+    background-color: rgb(22,164,250);
+    color: white;
+}
+
+.panel-text {
+    font-style: normal;
+    padding-left: 10px;
+}
+
+.panel-pix {
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.panel-pix_red {
+    color: rgb(229,76,104);
+}
+
+.panel-pix_yellow {
+    color: rgb(253,169,11);
+}
+
+.panel-pix_blue {
+    color: rgb(0,195,227);
+}
+
+.panel-pix_lilac {
+    color: rgb(120,115,205);
+}
+
+.panel-pix_white {
+    color: white;
+}

@@ -20,7 +20,7 @@ Flat.prototype.getRoom = function(name) {
 }
 
 Flat.prototype.showPower = function() {
-    console.log("Мощность квартиры составляет: " + this.power);
+    console.log("Мощность квартиры составляет: " + this.getPower());
 }
 
 Flat.prototype.getDevice = function(name) {

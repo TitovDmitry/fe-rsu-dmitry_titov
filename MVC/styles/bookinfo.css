@@ -1,0 +1,45 @@
+.bookinfo {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url(../png/pix.png);
+}
+
+.bookinfo_off {
+    position: fixed;
+    visibility: hidden;
+}
+
+.bookinfo__part {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;   
+    color: white;
+}
+
+.bookinfo__cover {
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.bookinfo__info {
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    margin: 5px;
+    text-align: center;
+}
+
+.bookinfo__button {
+    margin: 5px;
+    padding: 5px;
+}

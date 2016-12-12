@@ -1,0 +1,43 @@
+.basement {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    flex-shrink: 0;
+    background-color: #2f3649;
+}
+
+.basement__menu {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.basement__item {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.basement__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    width: 50px;
+    height: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.blue {
+    background-color: rgb(22, 164, 250);
+}
+
+.gray {
+    background-color: rgb(31,38,56);
+}

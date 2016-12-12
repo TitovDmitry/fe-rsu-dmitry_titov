@@ -1,0 +1,11 @@
+.leftblock {
+    font-family: alltext;
+    display: flex;
+    flex-direction: column;
+    background-color: #151d2b;
+    height: 100%;
+    width: 200px;
+    flex-shrink: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

@@ -1,0 +1,49 @@
+.newbook {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url(../png/pix.png);
+}
+
+.newbook_off {
+    position: fixed;
+    visibility: hidden;
+}
+
+.newbook__add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    border-radius: 20px;
+    background: repeating-linear-gradient(
+         45deg,
+        #fff0f5,
+        #fff0f5 10px,
+        #ffffff 10px,
+        #ffffff 20px
+    );
+}
+
+.newbook__field {
+    font-family: alltext;
+    color: #232a3d;
+}
+
+.newbook__legend {
+    color: #232a3d;
+}
+
+.newbook__input {
+    padding-top: 5px;
+}
+
+.newbook__button {
+    margin-right: 90px;
+}
